@@ -1,5 +1,7 @@
-<style>
-    :root {
-        --hacker: url("javascript:alert('XSS')"); /* Malicious CSS value */
-    }
-</style>
+<body>
+    <style>
+        :root {
+            --hacker: url("javascript:alert('XSS')"); /* Malicious CSS value */
+        }
+    </style>
+</body>
